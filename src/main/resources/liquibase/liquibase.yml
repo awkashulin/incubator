@@ -1,0 +1,8 @@
+driver: org.postgresql.Driver
+  url: jdbc:postgresql://localhost:5432/incubator
+username: postgres
+password: postgres
+verbose: true
+dropFirst: false
+changeLogFile: src/main/resources/liquibase/changelog-master.xml
+defaultSchemaName: public
